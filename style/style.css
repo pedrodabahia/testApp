@@ -2,8 +2,9 @@
     padding: 0;
     margin: 0;
 }
-html{
+html,body{
     overflow-x: hidden;
+    
 }
 header{
     position:fixed;
@@ -59,7 +60,8 @@ header .logo img{
 
 .receitas{
     padding: 6.3vw;
-    
+    text-align: center;
+    align-items: center;
 }
 .receitas h1{
     margin-bottom: 5vw;
@@ -78,10 +80,10 @@ header .logo img{
     font-size: 2.77vw;
     text-align: center;
     color: white;
-    display: inline-block;
     background-size: 300%;
     background-position: 60%;
     background-repeat: no-repeat;
+    display: inline-block;
 }
 .receitas .box .opac{
     content: '';
@@ -91,7 +93,7 @@ header .logo img{
     padding: 3vw;
     border-radius: 8vw;
     width: 34vw;
-    height: 56vw;
+    height: 57vw;
     background-color: rgba(99,000,000,0.4);
     z-index: 1;
 }
@@ -121,11 +123,14 @@ header .logo img{
     background-image: url(../img/aBolonhesa.avif);
 }
 .detalhes{
-    margin-top: 10vw;
+    margin: 15vw 0;
     text-align: left;
 }
+.detalhes h1#detitulo{
+    font-size: 8vw;
+}
 .detalhes h1{
-    font-size: 7vw;
+    font-size: 5vw;
     color:#630000
 }
 .detalhes p{
@@ -135,12 +140,25 @@ header .logo img{
 .detalhes div{
     margin: 5vw 0;
 }
+.infNutricional{
+    width: 100vw;
+
+}
 .infNutricional h1{
     color: #630000;
+    text-align: left;
 }
 .infNutricional h2{
     font-size: 3vw;
     color: #630000;
+    width: 85vw;
+    margin-top: -4vw;
+}
+table{
+    width: 90vw;
+    margin: 5vw;
+    position: relative;
+    left: -6vw;
 }
 table th, table td{
     border: 2px solid #630000;

@@ -58,12 +58,16 @@ header .logo img{
 }
 
 .receitas{
-    padding: 5vw;
+    padding: 6.3vw;
+    
 }
 .receitas h1{
     margin-bottom: 5vw;
+    position: relative;
+    z-index: 2;
 }
 .receitas .box{
+    position:relative;
     background-color: #630000;
     width: 34vw;
     padding: 3vw;
@@ -75,8 +79,24 @@ header .logo img{
     text-align: center;
     color: white;
     display: inline-block;
+    background-size: 300%;
+    background-position: 60%;
+    background-repeat: no-repeat;
+}
+.receitas .box .opac{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0vw;
+    padding: 3vw;
+    border-radius: 8vw;
+    width: 34vw;
+    height: 56vw;
+    background-color: rgba(99,000,000,0.4);
+    z-index: 1;
 }
 .receitas .box button{
+    position: relative;
     margin-top: 80%;
     border: 1px solid transparent;
     border-radius: 1vw;
@@ -85,6 +105,20 @@ header .logo img{
     font-size: 3vw;
     font-weight: 700;
     color: #630000;
+    z-index: 3;
+}
+
+.receitas .box#aomolho{
+    background-image: url(../img/macarraoAoMolho.jpg);
+}
+.receitas .box#carbonara{
+    background-image: url(../img/espagueteCarbonara.jpg);
+}
+.receitas .box#alhoEoleo{
+    background-image: url(../img/espagueteAlhoEolho.webp);
+}
+.receitas .box#aBolonhesa{
+    background-image: url(../img/aBolonhesa.avif);
 }
 .detalhes{
     margin-top: 10vw;
@@ -96,13 +130,19 @@ header .logo img{
 }
 .detalhes p{
     color: #515151;
+    margin: -2vw 0;
 }
 .detalhes div{
-    margin: 10vw 0;
+    margin: 5vw 0;
 }
 .infNutricional h1{
     color: #630000;
 }
 .infNutricional h2{
-    font-size: 4vw;
+    font-size: 3vw;
+    color: #630000;
+}
+table th, table td{
+    border: 2px solid #630000;
+    text-align: center;
 }

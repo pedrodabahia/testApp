@@ -65,6 +65,14 @@ header .logo img{
     padding: 6.3vw;
     text-align: center;
     align-items: center;
+    vertical-align: top;
+
+}
+.receitas .contein{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2px;
+    align-items: flex-start;
 }
 .receitas h1{
     margin-bottom: 5vw;
@@ -77,8 +85,7 @@ header .logo img{
     width: 34vw;
     padding: 3vw;
     padding-top:5vw;
-    height: 55vw;
-    margin: 2vw 1.5vw;
+    height: 55vw;    
     border-radius: 8vw;
     font-size: 2.77vw;
     text-align: center;
@@ -86,7 +93,6 @@ header .logo img{
     background-size: 300%;
     background-position: 60%;
     background-repeat: no-repeat;
-    display: inline-block;
 }
 .receitas .box .opac{
     content: '';

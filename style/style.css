@@ -112,7 +112,9 @@ header .logo img{
     z-index: 1;
 }
 .receitas .box button{
-    position: relative;
+    position: absolute;
+    left: 7vw;
+    top:16vw;
     margin-top: 80%;
     border: 1px solid transparent;
     border-radius: 1vw;

@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    overflow-x: hidden;
+}
+header{
+    position:fixed;
+    top: 5vw;
+    left: 9vw;
+    height: 10vw;
+    width: 80vw;
+    z-index: 3;
+
+}
+header .logo{
+    width: 100%;
+}
+header .logo img{
+    height: 15vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.banner{
+    width: 100vw;
+    height: 90vw;
+    background-color: #630000;
+    background-image: url(../img/detalheMacarrao.png);
+    background-repeat: no-repeat;
+    background-position: 30vw 55vw;
+    background-size: 40% ;
+}
+.banner h1,.banner h2{
+    color: white;
+    font-size: 4.2vw;
+    position: relative;
+    top:-5vw;
+    left: 11vw;
+    display: inline-block;    
+}
+.banner h2{
+    left: -33vw;
+    top: 2vw;
+}
+.banner img#produto{
+    height: 50vw;
+    display: inline-block;
+    position: relative;
+    left: 10vw;
+    top: 25vw;
+}
+.banner img#detalhe{
+    top:5vw;
+    left: 30vw;
+    width: 30vw;
+}
+
+.receitas{
+    padding: 5vw;
+}
+.receitas h1{
+    margin-bottom: 5vw;
+}
+.receitas .box{
+    background-color: #630000;
+    width: 34vw;
+    padding: 3vw;
+    padding-top:5vw;
+    height: 55vw;
+    margin: 2vw 1.5vw;
+    border-radius: 8vw;
+    font-size: 2.77vw;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.receitas .box button{
+    margin-top: 80%;
+    border: 1px solid transparent;
+    border-radius: 1vw;
+    height: 7vw;
+    width: 25vw;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #630000;
+}
+.detalhes{
+    margin-top: 10vw;
+    text-align: left;
+}
+.detalhes h1{
+    font-size: 7vw;
+    color:#630000
+}
+.detalhes p{
+    color: #515151;
+}
+.detalhes div{
+    margin: 10vw 0;
+}
+.infNutricional h1{
+    color: #630000;
+}
+.infNutricional h2{
+    font-size: 4vw;
+}

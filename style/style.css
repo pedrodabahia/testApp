@@ -8,11 +8,14 @@ html,body{
 }
 header{
     position:fixed;
-    top: 5vw;
-    left: 9vw;
+    top: 0vw;
+    left: 0vw;
     height: 10vw;
-    width: 80vw;
+    width: 90vw;
+    padding: 5vw 5vw;
     z-index: 3;
+    background-color:white;
+    z-index: 10;
 
 }
 header .logo{
@@ -21,8 +24,8 @@ header .logo{
 header .logo img{
     height: 15vw;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 3vw;
+    right: 5vw;
 }
 .banner{
     width: 100vw;
@@ -38,12 +41,12 @@ header .logo img{
     font-size: 4.2vw;
     position: relative;
     top:-5vw;
-    left: 11vw;
+    left: 2;
     display: inline-block;    
 }
 .banner h2{
-    left: -33vw;
-    top: 2vw;
+    left: 52vw;
+    top: -3vw;
 }
 .banner img#produto{
     height: 50vw;
@@ -112,6 +115,7 @@ header .logo img{
 
 .receitas .box#aomolho{
     background-image: url(../img/macarraoAoMolho.jpg);
+    margin-top: 5vw;
 }
 .receitas .box#carbonara{
     background-image: url(../img/espagueteCarbonara.jpg);

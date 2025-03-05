@@ -138,5 +138,23 @@
         </div>
 
     </main>
+    <script>
+        var nav = document.querySelector('header');
+window.addEventListener("scroll", function(event) {
+            if(window.pageYOffset>10){
+
+                nav.style.background = "rgba(99,000,000,0.35)";
+                nav.style.boxShadow = "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )";
+                nav.style.backdropFilter = "blur( 13.5px )";
+                nav.style.webkitBackdropFilter = "blur( 13.5px )";
+                nav.style.borderRadius = " 0  0 10px 10px";
+                nav.style.border = "1px solid rgba( 255, 255, 255, 0.18 )";
+
+            }
+            else{
+                nav.style.background = "transparent";
+            }
+        });
+    </script>
 </body>
 </html>

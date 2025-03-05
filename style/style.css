@@ -14,7 +14,6 @@ header{
     width: 90vw;
     padding: 5vw 5vw;
     z-index: 3;
-    background-color:white;
     z-index: 10;
 
 }
@@ -34,7 +33,7 @@ header .logo img{
     background-image: url(../img/detalheMacarrao.png);
     background-repeat: no-repeat;
     background-position: 30vw 55vw;
-    background-size: 40% ;
+    background-size: 50% 60%;
 }
 .banner h1,.banner h2{
     color: white;
@@ -71,13 +70,19 @@ header .logo img{
 .receitas .contein{
     display: flex;
     flex-wrap: wrap;
-    gap:2px;
+    gap:7vw;
     align-items: flex-start;
 }
 .receitas h1{
     margin-bottom: 5vw;
     position: relative;
+    text-align: left;
+    color: #630000;
     z-index: 2;
+}
+.receitas .box h1{
+    color: aliceblue;
+    text-align: center;
 }
 .receitas .box{
     position:relative;
@@ -121,6 +126,7 @@ header .logo img{
 
 .receitas .box#aomolho{
     background-image: url(../img/macarraoAoMolho.jpg);
+    
 }
 .receitas .box#carbonara{
     background-image: url(../img/espagueteCarbonara.jpg);

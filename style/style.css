@@ -208,6 +208,45 @@ img#logoReceitas{
     margin: 5vw 40vw;
     margin-bottom: 5vw;
 }
+
+footer{
+    height: 20vw;
+    font-size: 1.1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #630000;
+
+}
+footer .logo img{
+    
+    height: 10vw;
+    display: block;
+    margin: 0 auto;
+}
+footer .links{
+    display: block;
+    font-size: 1.27vw;
+    width: 60vw;
+    height: 8vw;
+    color: white;
+    margin: 0vw;
+    margin-bottom: -2vw;
+    text-align: center;
+}
+footer .links ul{
+    display: none;
+}
+footer .links ul:last-child{
+    display: block;
+}
+footer .links ul a{
+    color: #ffb400;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 @keyframes rodar {
   to{
     transform: rotate(0deg);

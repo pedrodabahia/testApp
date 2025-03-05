@@ -123,7 +123,10 @@ header .logo img{
     color: #630000;
     z-index: 3;
 }
-
+.receitas .box button a{
+    text-decoration: none;
+    color: #630000;
+}
 .receitas .box#aomolho{
     background-image: url(../img/macarraoAoMolho.jpg);
     
@@ -178,4 +181,44 @@ table{
 table th, table td{
     border: 2px solid #630000;
     text-align: center;
+}
+img#logoReceitas{
+    height:17vw;
+    margin: 8vw 20vw;
+}
+#receitas{
+    text-align: center;
+    font-size: 7vw;
+}
+#receitas calma{
+    font-size: 5vw;
+    animation: pisca 1s linear infinite;
+}
+#receitas div{
+    
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+    border: 5px solid yellow;
+    border-top: transparent;
+    border-left: transparent;
+    animation: rodar 2s linear infinite ;
+    margin: 5vw 40vw;
+    margin-bottom: 5vw;
+}
+@keyframes rodar {
+  to{
+    transform: rotate(0deg);
+  }    
+  from{
+    transform: rotate(360deg);
+  }
+}
+@keyframes pisca {
+    to{
+        color: rgba(000,000,000,0);
+    }
+    from{
+        color: rgba(000,000,000,1);
+    }
 }
